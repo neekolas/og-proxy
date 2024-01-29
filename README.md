@@ -1,4 +1,8 @@
-# link-preview-server
+# OpenGraph Proxy
+
+A simple proxy server to read OpenGraph tags from a URL without revealing client IP addresses. Designed to also support Farcaster Frames.
+
+## Setup
 
 To install dependencies:
 
