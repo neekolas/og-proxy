@@ -21,3 +21,8 @@ Bun.serve({
     return new Response("Not implemented", { status: 501 });
   },
 });
+
+process.on("SIGINT", () => {
+  console.log("Received SIGINT");
+  process.exit(0);
+});
